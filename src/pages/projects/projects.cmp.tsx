@@ -4,6 +4,7 @@ import { useProjectStore } from "../../stores/projects.store";
 import { config } from "../../configs/config";
 import { Box, Pagination, CircularProgress } from "@mui/material";
 
+// List of project component
 const Projects = () => {
   const [page, setPage] = React.useState(1);
   const projectsState = useProjectStore((state) => ({
