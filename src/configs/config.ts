@@ -1,10 +1,9 @@
 export const config = {
   urlPrefix: "https://api.foleon.com/",
-  accessToken: "Bearer feab2be5b685ad29ebb93016d3cdbab9fe0d801a",
+  accessToken: "",
   login: {
     clientId: "dNkfwMEnP9",
-    clientSecret:
-      "53a8a568512639f9f7e0b8adc502d3c7b5813382e9f3d4f2a8bee7c526ce6371",
+    clientSecret: "", // add client secret here
     grantType: "client_credentials",
   },
   header: {

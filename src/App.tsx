@@ -8,9 +8,9 @@ import useProjectStore from "./stores/auth.store";
 function App() {
   const login = useProjectStore((state) => state.login);
 
-  // React.useEffect(() => {
-  //   login();
-  // }, []);
+  React.useEffect(() => {
+    login();
+  }, []);
 
   return (
     <div className="App">
